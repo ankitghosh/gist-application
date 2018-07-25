@@ -1,0 +1,108 @@
+a{
+  color: #333;
+  text-decoration: none;
+  font-size: 12px;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #797979;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.search-tag .search-input{
+  width: 40%;
+  margin: 20px auto;
+  padding: 0px 20px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+} 
+
+.search-btn {
+    height: 42px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+    width: 120px;
+}
+.list-display{
+    width: 58%;
+    margin: 0 auto;
+}
+
+ul.list {
+  list-style: none;
+}
+
+li.list-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 9px;
+  margin-bottom: 24px;
+}
+
+div.file-details {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  background: #eeeeee;
+}
+
+div.file-list h3 {
+  text-align: left;
+}
+
+div.file-details span {
+    flex:1;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+}
+
+ul.fork-list {
+  margin-top: 18px;
+}
+
+ul.fork-list li {
+  display: inline-block;
+  width: 100px;
+  margin: 10px;
+}
+
+ul.fork-list li img {
+  width: 100%;
+}
+
+div.fork-view {
+  margin-bottom: 20px;
+}
+
+div.fork-view a.fork-btn{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #dcd4da;
+}
+
+div.gist-tag {
+  margin: 20px 10px;
+  text-align: left;
+}
+
+div.gist-tag a {
+    padding: 10px;
+    background: #f0f8ff;
+    margin: 0 10px;
+}
